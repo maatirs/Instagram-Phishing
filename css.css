@@ -33,7 +33,7 @@ body, button, input {
 }
 
 #root, article, main, div, section, header, nav, footer {
-  border:  solid #000000;
+  border: 0 solid #000000;
   box-sizing: border-box;
   align-items: stretch;
   display: flex;
@@ -46,7 +46,7 @@ body, button, input {
     -moz-box-align: stretch;
   -webkit-box-orient: vertical;
     -moz-box-orient: vertical;
-  -webkit-box-direction: stretch;
+  -webkit-box-direction: normal;
     -moz-box-direction: normal;
 } /* <--Universal Selectors End */
 
@@ -61,7 +61,7 @@ body, button, input {
 }
 
 .main {
-  background-color: #ffffff;
+  background-color: #fafafa;
   order: 4;
   flex-grow: 1;
   -webkit-box-flex: 1;
@@ -87,7 +87,7 @@ body, button, input {
 .article {
   flex-direction: row;
   margin:0 auto;
-  max-width: 835px;
+  max-width: 935px;
   width:100%;
   -webkit-box-orient: horizontal;
     -moz-box-orient: horizontal;
@@ -96,7 +96,7 @@ body, button, input {
 }
 
 .content {
-  color:#ff0000;
+  color:#262626;
   flex-grow:1;
   justify-content: center;
   max-width: 350px;
@@ -365,7 +365,7 @@ span.language {
   .footer-container,  .footer-nav ul {
     justify-content: center;
     margin:0 auto;
-    max-width: auto;
+    max-width: 360px;
     min-width: auto;
     -webkit-box-pack: center;
     -moz-box-pack: center;
