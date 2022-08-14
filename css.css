@@ -159,7 +159,7 @@ input#name:focus, input#password:focus {
 .button-box {
   display: block;
   position: relative;
-  margin: 8px 40px;
+  margin: 16px 80px;
 }
 .btn {
   cursor: pointer;
