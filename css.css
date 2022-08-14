@@ -354,7 +354,7 @@ span.language {
 
 }
 
-@media only screen and (max-width:875px) {
+@media only screen and (max-width:400px) {
   .footer-container {
     text-align: center;
     padding:10px 0;
@@ -362,7 +362,7 @@ span.language {
   .footer-container,  .footer-nav ul {
     justify-content: center;
     margin:0 auto;
-    max-width: auto;
+    max-width: 100%;
     min-width: auto;
     -webkit-box-pack: center;
     -moz-box-pack: center;
