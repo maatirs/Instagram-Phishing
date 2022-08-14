@@ -53,7 +53,7 @@ body, button, input {
 }
 
 .section-all {
-  min-height:50%;
+  min-height:100%;
   overflow:hidden;
 }
 
@@ -96,7 +96,7 @@ body, button, input {
   color:#262626;
   flex-grow:1;
   justify-content: center;
-  max-width: 350px;
+  max-width: 1000px;
   margin-top:12px;
   -webkit-box-pack: justify;
     -moz-box-pack: justify;
