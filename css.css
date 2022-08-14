@@ -122,7 +122,7 @@ body, button, input {
 
 .logo {
   background: cover no-repeat;
-  width:175px;
+  width:350px;
   height:auto;
 }
 
@@ -159,7 +159,7 @@ input#name:focus, input#password:focus {
 .button-box {
   display: block;
   position: relative;
-  margin: 16px 80px;
+  margin: 32px 240px;
 }
 .btn {
   cursor: pointer;
