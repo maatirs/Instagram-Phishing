@@ -362,7 +362,7 @@ span.language {
   .footer-container,  .footer-nav ul {
     justify-content: center;
     margin:0 auto;
-    max-width: 360px;
+    max-width: auto;
     min-width: auto;
     -webkit-box-pack: center;
     -moz-box-pack: center;
